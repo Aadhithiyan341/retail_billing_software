@@ -1,0 +1,10 @@
+# Tkinter is included by default in most Python distributions
+# If Tkinter is not available in your environment, you can install it with:
+# For Windows: pip install tk
+# For Linux: sudo apt-get install python3-tk
+
+# Required libraries for the project
+mysql-connector-python==8.0.33       # For connecting to MySQL
+pandas==2.1.1                        # For data export to CSV/Excel
+openpyxl==3.1.2                      # For working with Excel files (required by pandas)
+tk==0.1.0                            # Tkinter package (if not installed by default)
